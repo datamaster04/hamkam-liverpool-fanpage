@@ -2,9 +2,8 @@ import './style/App.css';
 import React from 'react';
 import { BrowseRouter, Routes, Route, Navigate } from 'react-router-dom';
 
-import Home from './pages/Home';
-import Kamper from './pages/Kamper'
-import Nyheter from './pages/Nyheter'
+import Pages from './pages'
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/sit/js/bootstrap.bundle'
 import Header from "./components/Header"
@@ -25,3 +24,4 @@ function App() {
 }
 
 export default App;
+
