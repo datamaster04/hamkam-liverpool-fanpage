@@ -1,26 +1,29 @@
 import './style/App.css';
 import React from 'react';
-import { BrowseRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
-import Pages from './pages'
+import Home from './pages/Home'
+import Kamper from './pages/Kamper'
+import Nyheter from './pages/Nyheter'
+import OmOss from './pages/OmOss'
+import OvergangerOgRykter from './pages/OvergangerOgRykter'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/sit/js/bootstrap.bundle'
 import Header from "./components/Header"
 
 function App() {
-  return <BrowseRouter>
+  return <BrowserRouter>
     <Header />
       <Routes>
-        <Route path="/Home" element={<Pages.Home />} />
+        <Route path="/Home" element={<Home />} />
 
-        <Route path="/kamper" element={<Pages.Kamper />} />
-        <Route path="/nyheter" element={<Pages.Nyheter />} />
-        <Route path="/om-oss" element={<Pages.OmOss />} />
-        <Route path="/overganger-og-rykter" element={<Pages.OvergangerOgRykter />} />
+        <Route path="/kamper" element={<Kamper />} />
+        <Route path="/nyheter" element={<Nyheter />} />
+        <Route path="/om-oss" element={<OmOss />} />
+        <Route path="/overganger-og-rykter" element={<OvergangerOgRykter />} />
         <Route path="*" element={<Navigate to="/Home" />} />
       </Routes>
-  </BrowseRouter>
+  </BrowserRouter>
 }
 
 export default App;
