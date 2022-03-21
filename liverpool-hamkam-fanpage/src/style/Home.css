@@ -1,0 +1,19 @@
+.menylinje{
+    height: 100px;
+}
+
+.container-logo-image{
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.container-box{
+    display: flex;
+    padding: 10px;
+}
+
+.container-header{
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: bold;
+}
