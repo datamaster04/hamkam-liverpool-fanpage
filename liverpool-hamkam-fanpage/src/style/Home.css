@@ -10,10 +10,37 @@
 .container-box{
     display: flex;
     padding: 10px;
+    margin-left: 200px;
 }
 
 .container-header{
     margin-top: 35px;
     font-size: 30px;
     font-weight: bold;
+}
+
+.container-textbox {
+    width: 500px;
+    max-width: 100%;
+}
+
+.container-tags {
+    display: flex;
+    width: 400px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header-container-text{
+    font-weight: bold;
+}
+
+.theme-header{
+    color: grey;
+}
+
+
+.following-text{
+  font-size: 10px;
 }
