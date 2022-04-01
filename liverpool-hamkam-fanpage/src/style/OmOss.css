@@ -1,8 +1,41 @@
-.OmOss-logo-image{
+.OmOss-fanpage-logo-image{
     border-radius: 50%;
+    height: 200px;
+    margin: 20px;
 }
 
 .OmOss_box{
     margin: 100px;
     margin-left: 300px;
+}
+
+.OmOss-hamkam-logo-image{
+    height: 250px;
+    margin: 20px;
+}
+
+.OmOss-liverpool-logo-image{
+    height: 150px;
+    margin: 20px;   
+}
+
+.header_fanpage_logo{
+    width: 100px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.container-liverpool-logo-image{
+    height: 150px;
+}
+
+.container-hamarkameratene-logo-image{
+    height: 150px;
+}
+
+.container-header{
+margin-right: 20px;
 }
