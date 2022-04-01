@@ -17,7 +17,7 @@ export default function Header() {
         <li className="nav-item" />
       <Link className="nav-link active" to="/om-oss">Om oss</Link>
           <li className="nav-item" />
-      <Link className="nav-link active" to="/kontakt-oss">Nyheter</Link>
+      <Link className="nav-link active" to="/nyheter">Nyheter</Link>
       <li className="nav-item" />
       <Link className="nav-link active" to="/kamper">Kamper</Link>
       <li className="nav-item" />
