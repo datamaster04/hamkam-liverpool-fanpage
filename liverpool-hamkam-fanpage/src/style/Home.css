@@ -40,7 +40,42 @@
     color: grey;
 }
 
+.stadion_container{
+    margin-left: 250px;
+    margin-top: 70px;
+}
 
 .following-text{
   font-size: 10px;
+}
+
+.briskeby{
+    height: 250px;
+    border-radius: 5%;
+    margin-right: 50px;
+    
+}
+
+.anfield{
+    height: 250px;
+    border-radius: 5%;
+}
+
+.home_image_overskrift{
+    display: flex;
+    width: 600px;
+    margin-left: 120px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header_home_image_briskeby{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header_home_image_anfield{
+    font-size: 25px;
+    font-weight: bold;
 }

@@ -1,41 +1,76 @@
-.OmOss-fanpage-logo-image{
-    border-radius: 50%;
-    height: 200px;
-    margin: 20px;
+.OmOss-logo-image {
+  border-radius: 50%;
 }
 
-.OmOss_box{
-    margin: 100px;
-    margin-left: 300px;
+.OmOss_box {
+  margin: 100px;
+  margin-left: 450px;
 }
 
-.OmOss-hamkam-logo-image{
-    height: 250px;
-    margin: 20px;
+.OmOss-logo-image {
+  height: 250px;
+  margin-right: 50px;
 }
 
-.OmOss-liverpool-logo-image{
-    height: 150px;
-    margin: 20px;   
+.OmOss-hamkam-logo-image {
+  height: 250px;
+  margin-right: 50px;
+  margin-left: 100px;
 }
 
-.header_fanpage_logo{
-    width: 100px;
-    max-width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.OmOss-liverpool-logo-image {
+  height: 250px;
+  margin-left: 100px;
 }
 
-
-
-.container-liverpool-logo-image{
-    height: 150px;
+.om_oss_header {
+  display: flex;
+  width: 920px;
+  margin-left: 10px;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.container-hamarkameratene-logo-image{
-    height: 150px;
+.om_oss_fanpage_header {
+  margin-left: -40px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.container-header{
-margin-right: 20px;
+.om_oss_hamkam_header {
+  margin-right: 50px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.om_oss_liverpool_header {
+  margin-right: -30px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.om_oss_tekst {
+  display: flex;
+  width: 1200px;
+  margin-left: 10px;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.om_oss_fanpage_text {
+  width: 400px;
+}
+
+.om_oss_hamkam_text {
+  width: 300px;
+  margin-left: -45px;
+}
+
+.om_oss_liverpool_text {
+  width: 400px;
 }
