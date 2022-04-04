@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Logo from "../assets/images/Logo.jpg";
 import LfcLogo from "../assets/images/liverpool_logo.png";
 import HamLogo from "../assets/images/Hamarkameratene_logo.png";
@@ -70,3 +71,5 @@ const OmOss = () => {
 };
 
 export default OmOss;
+=======
+>>>>>>> parent of 84a3bff (pages)

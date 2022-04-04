@@ -7,7 +7,6 @@
     margin: 50px;
 }
 
-
 .container-box{
     display: flex;
     padding: 10px;
@@ -44,46 +43,4 @@
 
 .following-text{
   font-size: 10px;
-}
-
-.image_box{
-    display: flex;
-    width: 400px;
-    max-width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.anfield{
-    border-radius: 5%;
-    margin: 50px;
-    height: 250px;
-}
-
-.briskeby{
-    border-radius: 5%;
-    margin: 50px;
-    height: 250px;
-}
-
-.tekst_stadioner{
-   margin-left: 150px;
-   display: flex;
-   width: 680px;
-   max-width: 100%;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   font-weight: bold;
-   font-size: 30px;
-}
-
-.stadion_container{
-    width: 1100px;
-    margin-left: 150px;
-    margin-top: 50px;
-}
-
-.tekst_anfield{
-    margin-left: 200px;
-    width: 200px;
 }
