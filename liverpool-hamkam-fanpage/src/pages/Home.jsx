@@ -2,12 +2,9 @@ import React from "react";
 import "../style/App.css";
 import Logo from "../assets/images/Logo.jpg";
 import "../style/Home.css";
-<<<<<<< HEAD
+
 import Anfield from "../assets/images/Anfield.jpg";
 import BriskebyStadion from "../assets/images/BriskebyStadion.jpg";
-=======
-import Anfield from "../assets/images/Anfield.jpg"
->>>>>>> parent of 84a3bff (pages)
 
 const Home = (props) => {
   return (
@@ -45,30 +42,8 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
-        <div className="stadion_container">
-          <div className="tekst_stadioner">
-            <p>Briskeby Stadion</p>
-            <p>Anfield</p>
-          </div>
-          <img
-            className="briskeby"
-            src={BriskebyStadion}
-            alt="Liverpool og Hamkam Fanpage"
-          />
 
-          <img
-            className="anfield"
-            src={Anfield}
-            alt="Liverpool og Hamkam Fanpage"
-          />
-        </div>
-=======
-        <div className="image box">
-                <div className="hamkam-image"><img src=""></img>Briskeby stadion</div>
-                <div className="liverpool-image">Anfield</div>
-            </div>
->>>>>>> parent of 84a3bff (pages)
+
       </div>
     </section>
   );
