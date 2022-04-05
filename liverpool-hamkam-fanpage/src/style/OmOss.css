@@ -75,21 +75,24 @@
   width: 300px;
 }
 
-
-.om_oss_boxes{
+.om_oss_boxes {
   margin: 100px;
   margin-left: 400px;
   display: flex;
 }
 
-.om_oss_fanpage_box{
-    margin-right: 100px;
+.om_oss_fanpage_box {
+  margin-right: 100px;
 }
 
-.om_oss_hamkam_box{
-    margin-right: 100px;
+.om_oss_hamkam_box {
+  margin-right: 100px;
 }
 
-.OmOss-logo-image{
-    margin-left: -25px;
+.OmOss-logo-image {
+  margin-left: -25px;
+}
+
+.bg-image {
+  opacity: 30%;
 }

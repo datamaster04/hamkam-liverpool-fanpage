@@ -4,12 +4,11 @@ import HamLogo from "../assets/images/HamkamLogo.png";
 import "../style/App.css";
 import "../style/OmOss.css";
 import React from "react";
+import Bilde from "../assets/images/Bilde.jpg";
 
 const OmOss = () => {
   return (
-
-    
-
+    <>
       <div className="om_oss_boxes">
         <div className="om_oss_fanpage_box">
           <img
@@ -53,6 +52,7 @@ const OmOss = () => {
           </div>
         </div>
       </div>
+    </>
   );
 };
 
