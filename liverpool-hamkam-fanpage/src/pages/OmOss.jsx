@@ -30,22 +30,15 @@ const OmOss = () => {
         <p className="om_oss_liverpool_header">Liverpool FC</p>
       </div>
       <div className="om_oss_tekst">
-        <div className="om_oss_fanpage_text">
-          Dette er en fanpage for klubbene HamKam i Norge og Liverpool i
-          England.
-        </div>
-        <div className="om_oss_hamkam_text">
-          Hamarkameratene, ofte forkortet til HamKam eller Ham-Kam, er en norsk
-          fotballklubb lokalisert i Hamar by. Klubben ble stiftet i 1918,
-          opprinnelig under navnet Freidig. HamKam rykket sist opp til
-          Eliteserien i 2021.
-        </div>
-        <div className="om_oss_liverpool_text">
-          Liverpool Football Club er en profesjonell fotballklubb med lokalisert
-          i Liverpool, England, som konkurrerer i Premier League, topplaget i
-          engelsk fotball. Innenlands har klubben vunnet nitten ligatitler, syv
-          FA-cuper, rekordhøye ni ligacuper og femten FA Community Shields.
-        </div>
+        <div className="om_oss_fanpage_text">Dette er en fanpage for klubbene HamKam i Norge og Liverpool i England.</div>
+        <div className="om_oss_hamkam_text">Hamarkameratene, ofte forkortet til HamKam eller
+            Ham-Kam, er en norsk fotballklubb lokalisert i Hamar by. 
+            Klubben ble stiftet i 1918, opprinnelig under navnet Freidig. 
+            HamKam rykket sist opp til Eliteserien i 2021.</div>
+        <div className="om_oss_liverpool_text">Liverpool Football Club er en profesjonell 
+        fotballklubb med lokalisert i Liverpool, England, som konkurrerer i Premier League, 
+        topplaget i engelsk fotball. Innenlands har klubben vunnet nitten ligatitler, 
+        syv FA-cuper, rekordhøye ni ligacuper og femten FA Community Shields.</div>
       </div>
     </div>
   );
