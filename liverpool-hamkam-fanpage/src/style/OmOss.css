@@ -63,14 +63,15 @@
 }
 
 .om_oss_fanpage_text {
-  width: 400px;
+  width: 300px;
+  margin-left: -42px;
 }
 
 .om_oss_hamkam_text {
   width: 300px;
-  margin-left: -45px;
 }
 
 .om_oss_liverpool_text {
-  width: 400px;
+  width: 300px;
+  margin-left: 20px;
 }
