@@ -14,13 +14,12 @@
 
 .OmOss-hamkam-logo-image {
   height: 250px;
-  margin-right: 50px;
-  margin-left: 100px;
+  margin-right: 100px;
+  margin-left: 50px;
 }
 
 .OmOss-liverpool-logo-image {
   height: 250px;
-  margin-left: 100px;
 }
 
 .om_oss_header {
@@ -40,7 +39,7 @@
 }
 
 .om_oss_hamkam_header {
-  margin-right: 50px;
+  margin-left: 50px;
   margin-top: 40px;
   font-size: 20px;
   font-weight: bold;
@@ -67,11 +66,30 @@
   margin-left: -42px;
 }
 
-.om_oss_hamkam_text {
+.om-oss-hamkam-text {
   width: 300px;
+  margin-left: 50px;
 }
 
 .om_oss_liverpool_text {
   width: 300px;
-  margin-left: 20px;
+}
+
+
+.om_oss_boxes{
+  margin: 100px;
+  margin-left: 400px;
+  display: flex;
+}
+
+.om_oss_fanpage_box{
+    margin-right: 100px;
+}
+
+.om_oss_hamkam_box{
+    margin-right: 100px;
+}
+
+.OmOss-logo-image{
+    margin-left: -25px;
 }
