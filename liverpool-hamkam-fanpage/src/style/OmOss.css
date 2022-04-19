@@ -83,6 +83,7 @@
 
 .om_oss_fanpage_box {
   margin-right: 100px;
+
 }
 
 .om_oss_hamkam_box {
@@ -95,4 +96,49 @@
 
 .bg-image {
   opacity: 30%;
+}
+
+.bg-image{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.om_oss_header{
+  font-size: 40px;
+  font-weight: bold;
+  width: 150px;
+  margin-left: 864px;
+  margin-top: 30px;
+}
+
+.om_oss_hamkam_EgetMotto{
+  width: 300px;
+  margin-top: 75px;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.om_oss_liverpool_motto{
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.om_oss_fanpage_motto{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: -42px;
+  width: 300px;
+  text-align: center;
+  margin-top: 100px;
 }

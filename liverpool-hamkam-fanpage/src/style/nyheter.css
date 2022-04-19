@@ -1,0 +1,21 @@
+.nyheter_header{
+  font-size: 40px;
+  font-weight: bold;
+  width: 150px;
+  margin-left: 864px;
+  margin-top: 30px;
+}
+
+.førstesier_bilde{
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 3%;
+}
+
+.førsteseier_header{
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}

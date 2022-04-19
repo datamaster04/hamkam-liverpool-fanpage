@@ -30,7 +30,7 @@ const Home = (props) => {
               </p>
               <p className="theme-header">Sport</p>
               <p className="description">
-                Je følger HamKam og Liverpool FC sine klubblag, og har et stort
+                Jeg følger HamKam og Liverpool FC sine klubblag, og har et stort
                 hjerte for klubbene, je vil dele nyheter, overganger, rykter, og
                 følge kamper!
               </p>
