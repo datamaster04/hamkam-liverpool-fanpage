@@ -1,14 +1,15 @@
 import Logo from "../assets/images/Logo.jpg";
-import LfcLogo from "../assets/images/LfcLogo.png";
+import LfcLogo from "../assets/images/Logo.png";
 import HamLogo from "../assets/images/HamkamLogo.png";
 import "../style/App.css";
 import "../style/OmOss.css";
 import React from "react";
-import Bilde from "../assets/images/Bilde.jpg";
 
 const OmOss = () => {
   return (
     <>
+      <div className="om_oss_header">Om Oss</div>
+
       <div className="om_oss_boxes">
         <div className="om_oss_fanpage_box">
           <img
@@ -16,10 +17,16 @@ const OmOss = () => {
             src={Logo}
             alt="Liverpool og Hamkam Fanpage"
           />
-          <p className="om_oss_fanpage_header">Liverpool & HamKam fanpage</p>
-          <div className="om_oss_fanpage_text">
-            Dette er en fanpage for klubbene HamKam i Norge og Liverpool i
-            England.
+          <div className="om_oss_fanpage_textbox">
+            <p className="om_oss_fanpage_header">Liverpool & HamKam fanpage</p>
+            <div className="om_oss_fanpage_text">
+              Dette er en fanpage for klubbene HamKam i Norge og Liverpool i
+              England. Jeg følger klubbene i kamper, under sesongen med
+              overganger, nyheter, i ligaen og HamKam på selveste Briskeby!
+            </div>
+            <div className="om_oss_fanpage_motto">
+              I våre klubber, står vi sammen, vinn eller tap!
+            </div>
           </div>
         </div>
         <div className="om_oss_hamkam_box">
@@ -34,6 +41,9 @@ const OmOss = () => {
             norsk fotballklubb lokalisert i Hamar by. Klubben ble stiftet i
             1918, opprinnelig under navnet Freidig. HamKam rykket sist opp til
             Eliteserien i 2021.
+          </div>
+          <div className="om_oss_hamkam_EgetMotto">
+            På Brikseby, på briskeby, her er det fotball, øl og kamma!{" "}
           </div>
         </div>
         <div className="om_oss_liverpool_box">
@@ -50,6 +60,7 @@ const OmOss = () => {
             ligatitler, syv FA-cuper, rekordhøye ni ligacuper og femten FA
             Community Shields.
           </div>
+          <div className="om_oss_liverpool_motto">You'll Never Walk Alone</div>
         </div>
       </div>
     </>

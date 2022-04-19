@@ -32,7 +32,7 @@ export default function Header() {
               Om oss
             </Link>
             <li className="nav-item" />
-            <Link className="nav-link active" to="/kontakt-oss">
+            <Link className="nav-link active" to="/nyheter">
               Nyheter
             </Link>
             <li className="nav-item" />
