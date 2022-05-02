@@ -1,9 +1,8 @@
 .nyheter_header{
-  font-size: 40px;
+  margin-left: 900px;
+  margin-top: 40px;
+  font-size: 30px;
   font-weight: bold;
-  width: 150px;
-  margin-left: 864px;
-  margin-top: 30px;
 }
 
 .førstesier_bilde{
@@ -14,8 +13,20 @@
 }
 
 .førsteseier_header{
-    margin-left: 150px;
     margin-top: 30px;
     font-size: 30px;
+    width: 440px;
     font-weight: bold;
+    text-align: center;
 }
+
+.nyheter-image{
+  height: 250px;
+  border-radius: 3%;
+}
+
+.nyheter_box{
+  margin: 100px;
+  margin-left: 450px;
+}
+

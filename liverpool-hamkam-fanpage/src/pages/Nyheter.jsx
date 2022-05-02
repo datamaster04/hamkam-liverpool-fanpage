@@ -1,4 +1,5 @@
 import "../style/nyheter.css";
+import "../style/OmOss.css";
 import React from "react";
 import førsteseier from "../assets/images/førsteseier.jpg";
 
@@ -8,14 +9,16 @@ const OmOss = () => {
       <div className="nyheter_header">Nyheter</div>
 
       <div className="nyheter_box">
-        <div className="nyhet_førsteseier">
+      <div className="nyhet_førsteseier">
           <img
-            className="førstesier_bilde"
+            className="nyheter-image"
             src={førsteseier}
-            alt="HamKam - Sandefjord 18.04.22"
+            alt="Liverpool og Hamkam Fanpage"
           />
-          <a className="førsteseier_header"> Taktsik grep ga 3 poeng</a>
-          <div className="førsteseier_text"></div>
+          <p>Foto: Fredrik Olastuen   </p>
+          <div className="nyheter_textbox">
+            <a className="førsteseier_header">Taktiske grep ga 3 poeng</a>
+          </div>
         </div>
       </div>
     </>
