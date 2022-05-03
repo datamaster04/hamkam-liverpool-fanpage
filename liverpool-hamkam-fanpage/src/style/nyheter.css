@@ -18,6 +18,8 @@
     width: 440px;
     font-weight: bold;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 .nyheter-image{
