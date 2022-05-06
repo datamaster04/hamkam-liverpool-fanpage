@@ -23,6 +23,13 @@ const Nyheter = () => {
             </Link>
           </div>
         </div>
+        <div className="nyhet-kjopbiletter">
+          <img
+          className="kamp-aalesund"
+          src={}
+          alt="bilde-allesund-runde5"
+          />
+        </div>
       </div>
     </>
   );
