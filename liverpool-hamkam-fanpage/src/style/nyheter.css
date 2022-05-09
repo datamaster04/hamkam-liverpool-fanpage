@@ -29,6 +29,13 @@
 
 .nyheter_box{
   margin: 100px;
+  width: 1000px;
   margin-left: 450px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nyhet_førsteseier{
+  margin: 20px;
 }
 

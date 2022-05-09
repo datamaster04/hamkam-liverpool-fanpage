@@ -23,12 +23,44 @@ const Nyheter = () => {
             </Link>
           </div>
         </div>
-        <div className="nyhet-kjopbiletter">
+        <div className="nyhet_førsteseier">
           <img
-          className="kamp-aalesund"
-          src={}
-          alt="bilde-allesund-runde5"
+            className="nyheter-image"
+            src={førsteseier}
+            alt="Liverpool og Hamkam Fanpage"
           />
+          <p>Foto: Fredrik Olastuen </p>
+          <div className="nyheter_textbox">
+            <Link to={"/førsteseier"} className="førsteseier_header">
+              Taktiske grep ga 3 poeng
+            </Link>
+          </div>
+        </div>
+        <div className="nyhet_førsteseier">
+          <img
+            className="nyheter-image"
+            src={førsteseier}
+            alt="Liverpool og Hamkam Fanpage"
+          />
+          <p>Foto: Fredrik Olastuen </p>
+          <div className="nyheter_textbox">
+            <Link to={"/førsteseier"} className="førsteseier_header">
+              Taktiske grep ga 3 poeng
+            </Link>
+          </div>
+        </div>
+        <div className="nyhet_førsteseier">
+          <img
+            className="nyheter-image"
+            src={førsteseier}
+            alt="Liverpool og Hamkam Fanpage"
+          />
+          <p>Foto: Fredrik Olastuen </p>
+          <div className="nyheter_textbox">
+            <Link to={"/førsteseier"} className="førsteseier_header">
+              Taktiske grep ga 3 poeng
+            </Link>
+          </div>
         </div>
       </div>
     </>
