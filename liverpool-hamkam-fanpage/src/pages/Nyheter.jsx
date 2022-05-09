@@ -2,6 +2,9 @@ import "../style/nyheter.css";
 import "../style/OmOss.css";
 import React from "react";
 import førsteseier from "../assets/images/førsteseier.jpg";
+import fotballtrøyefredag from "../assets/images/FotballtrøyeFredag.png";
+import aafknestemotstander from "../assets/images/AafkNesteMotstander.png";
+import poengdelingmotaalesund from "../assets/images/PoengdelingMotAalesund.png";
 import { Link } from "react-router-dom";
 
 const Nyheter = () => {
@@ -23,10 +26,10 @@ const Nyheter = () => {
             </Link>
           </div>
         </div>
-        <div className="nyhet_førsteseier">
+        <div className="nyhet_fotballtrøyefredag">
           <img
             className="nyheter-image"
-            src={førsteseier}
+            src={fotballtrøyefredag}
             alt="Liverpool og Hamkam Fanpage"
           />
           <p>Foto: Fredrik Olastuen </p>
@@ -36,10 +39,10 @@ const Nyheter = () => {
             </Link>
           </div>
         </div>
-        <div className="nyhet_førsteseier">
+        <div className="nyhet_nestemotstanderaalesund">
           <img
-            className="nyheter-image"
-            src={førsteseier}
+            className="aalesund_neste_motstander-bilde"
+            src={aafknestemotstander}
             alt="Liverpool og Hamkam Fanpage"
           />
           <p>Foto: Fredrik Olastuen </p>
@@ -49,10 +52,10 @@ const Nyheter = () => {
             </Link>
           </div>
         </div>
-        <div className="nyhet_førsteseier">
+        <div className="nyhet_poengdelingmotaafk">
           <img
             className="nyheter-image"
-            src={førsteseier}
+            src={poengdelingmotaalesund}
             alt="Liverpool og Hamkam Fanpage"
           />
           <p>Foto: Fredrik Olastuen </p>
