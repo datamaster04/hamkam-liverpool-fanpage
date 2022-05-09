@@ -15,11 +15,11 @@ const Nyheter = () => {
       <div className="nyheter_box">
         <div className="nyhet_førsteseier">
           <img
-            className="nyheter-image"
+            className="førsteseier-image"
             src={førsteseier}
             alt="Liverpool og Hamkam Fanpage"
           />
-          <p>Foto: Fredrik Olastuen </p>
+          <p className="photo_text_førsteseier">Foto: Fredrik Olastuen </p>
           <div className="nyheter_textbox">
             <Link to={"/førsteseier"} className="førsteseier_header">
               Taktiske grep ga 3 poeng
@@ -28,14 +28,14 @@ const Nyheter = () => {
         </div>
         <div className="nyhet_fotballtrøyefredag">
           <img
-            className="nyheter-image"
+            className="fotballtrøyefredag_bilde"
             src={fotballtrøyefredag}
             alt="Liverpool og Hamkam Fanpage"
           />
-          <p>Foto: Fredrik Olastuen </p>
+          <p className="photo_text_fotballtrøyefredag">Foto: Fredrik Olastuen </p>
           <div className="nyheter_textbox">
             <Link to={"/førsteseier"} className="førsteseier_header">
-              Taktiske grep ga 3 poeng
+              Fotballtrøye-Fredag
             </Link>
           </div>
         </div>
@@ -45,23 +45,23 @@ const Nyheter = () => {
             src={aafknestemotstander}
             alt="Liverpool og Hamkam Fanpage"
           />
-          <p>Foto: Fredrik Olastuen </p>
+          <p className="photo_text_aafknestemotstander">Foto: Fredrik Olastuen </p>
           <div className="nyheter_textbox">
             <Link to={"/førsteseier"} className="førsteseier_header">
-              Taktiske grep ga 3 poeng
+              Aalesund er neste motstander
             </Link>
           </div>
         </div>
         <div className="nyhet_poengdelingmotaafk">
           <img
-            className="nyheter-image"
+            className="poengdeling_mot_aafk-bilde"
             src={poengdelingmotaalesund}
             alt="Liverpool og Hamkam Fanpage"
           />
-          <p>Foto: Fredrik Olastuen </p>
+          <p className="photo_text_poengdelingmotaafk">Foto: Fredrik Olastuen </p>
           <div className="nyheter_textbox">
             <Link to={"/førsteseier"} className="førsteseier_header">
-              Taktiske grep ga 3 poeng
+              Poengdeling mot Aalesund
             </Link>
           </div>
         </div>
