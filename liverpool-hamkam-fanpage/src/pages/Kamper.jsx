@@ -29,6 +29,7 @@ const Kamper = () => {
               alt="HamKam logo transparent"
             />
           </div>
+          <div className="kampinfo_nestekamp">
           <div className="nestekamp_header_motstander">Vålerenga - Hamkam</div>
           <div className="nestekamp_info">
             <div className="kamp_informasjon">
@@ -45,6 +46,8 @@ const Kamper = () => {
             </div>
           </div>
         </div>
+          </div>
+        
         <div className="container_months">
           <div className="container_mai"></div>
           <div className="container_juni"></div>
