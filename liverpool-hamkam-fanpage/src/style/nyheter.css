@@ -1,8 +1,9 @@
 .nyheter_header{
-  margin-left: 900px;
-  margin-top: 40px;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
+  width: 150px;
+  margin-left: 864px;
+  margin-top: 30px;
 }
 
 .førstesier_bilde{
@@ -13,117 +14,8 @@
 }
 
 .førsteseier_header{
-  margin-left: 10px;
+    margin-left: 150px;
     margin-top: 30px;
     font-size: 30px;
-    width: 440px;
     font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: black;
 }
-
-.nyheter-image{
-  height: 250px;
-  border-radius: 3%;
-}
-
-.nyheter_box{
-  margin: 100px;
-  width: 1000px;
-  margin-left: 450px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.nyhet_førsteseier{
-  width: 444px;
-}
-
-.nyhet_fotballtrøyefredag{
-  width: 444px;
-  height: 355px;
-  margin: 10px;
-}
-
-.aalesund_neste_motstander-bilde{
-  width: 444px;
-}
-
-.nyhet_poengdelingmotaafk{
-  width: 444px;
-  height: 355px;
-  margin: 10px;
-}
-
-.aalesund_neste_motstander-bilde{
-  width: 444px;
-  height: 250px;
-  border-radius: 3%;
-  margin: 10px;
-}
-
-.poengdeling_mot_aafk-bilde{
-  height: 250px;
-  width: 444px;
-  border-radius: 3%;
-  margin: 10px;
-}
-
-.fotballtrøyefredag_bilde{
-  height: 250px;
-  width: 444px;
-  border-radius: 3%;
-  margin: 10px;
-}
-
-.førsteseier-image{
-  height: 250px;
-  width: 444px;
-  border-radius: 3%;
-  margin: 10px;
-}
-
-.nyhet_førsteseier{
-  margin: 10px;
-}
-
-.photo_text_førsteseier{
-  margin-left: 10px;
-}
-
-.nyhet_nestemotstanderaalesund{
-  width: 444px;
-  margin: 10px;
-}
-
-.photo_text_fotballtrøyefredag{
-  margin-left: 10px;
-}
-
-.photo_text_aafknestemotstander{
-  margin-left: 10px;
-}
-
-.photo_text_poengdelingmotaafk{
-  margin-left: 10px;
-}
-
-.aafknestemotstander_header{
-  margin-left: 900px;
-  margin-top: 40px;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.poengdeling_header{
-  margin-left: 10px;
-  margin-top: 30px;
-  font-size: 30px;    
-  width: 440px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-}
-
