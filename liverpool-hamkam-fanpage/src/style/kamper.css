@@ -35,9 +35,6 @@
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
   }
 
   .hamkamlogo{
@@ -51,7 +48,7 @@
   }
 
   .nestekamp_info{
-      width: 300px;
+      width: 450px;
       margin-left: 50px;
       height: 20px;
       display: flex;
@@ -96,9 +93,4 @@
 
 .text_kamp_informasjon{
     width: 250px;
-}
-
-.kampinfo_nestekamp{
-    display: flex;
-    flex-direction: column;
 }
