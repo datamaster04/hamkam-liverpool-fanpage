@@ -20,9 +20,9 @@ const Home = (props) => {
           <div className="container-textbox">
             <div className="container-header"> Hamkam & Liverpool Fanpage</div>
             <div className="container-tags">
-              <p>186 innlegg</p>
-              <p>51 følgere</p>
-              <p>60 følger</p>
+              <p>325 innlegg</p>
+              <p>131 følgere</p>
+              <p>108 følger</p>
             </div>
             <div className="container-text">
               <p className="header-container-text">

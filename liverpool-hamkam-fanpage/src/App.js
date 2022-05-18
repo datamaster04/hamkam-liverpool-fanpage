@@ -7,6 +7,7 @@ import Kamper from './pages/Kamper'
 import Nyheter from './pages/Nyheter'
 import OmOss from './pages/OmOss'
 import OvergangerOgRykter from './pages/OvergangerOgRykter'
+import Førsteseier from './nyheter_pages/førsteseier.jsx'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from "./components/Header"
@@ -16,12 +17,13 @@ function App() {
     <Header />
       <Routes>
         <Route path="/home" element={<Home />} />
+        <Route path='/'element={<Navigate to={"/home"} />} />
 
         <Route path="/kamper" element={<Kamper />} />
         <Route path="/nyheter" element={<Nyheter />} />
         <Route path="/om-oss" element={<OmOss />} />
         <Route path="/overganger-og-rykter" element={<OvergangerOgRykter />} />
-        <Route path="*" element={<Navigate to="/Home" />} />
+        <Route path="/førsteseier" element={<Førsteseier />} />
       </Routes>
   </BrowserRouter>
 }
