@@ -20,7 +20,7 @@ const Nyheter = () => {
             alt="Liverpool og Hamkam Fanpage"
           />
           <p className="photo_text_førsteseier">Foto: Fredrik Olastuen </p>
-          <div className="nyheter_textbox">
+          <div className="nyheter_textbox_førsteseier">
             <Link to={"/førsteseier"} className="førsteseier_header">
               Taktiske grep ga 3 poeng
             </Link>
@@ -33,7 +33,7 @@ const Nyheter = () => {
             alt="Liverpool og Hamkam Fanpage"
           />
           <p className="photo_text_fotballtrøyefredag">Foto: Fredrik Olastuen </p>
-          <div className="nyheter_textbox">
+          <div className="nyheter_textbox_fotballtrøyefredag">
             <Link to={"/førsteseier"} className="førsteseier_header">
               Fotballtrøye-Fredag
             </Link>
@@ -46,7 +46,7 @@ const Nyheter = () => {
             alt="Liverpool og Hamkam Fanpage"
           />
           <p className="photo_text_aafknestemotstander">Foto: Fredrik Olastuen </p>
-          <div className="nyheter_textbox">
+          <div className="nyheter_textbox_aafknestemotstander">
             <Link to={"/førsteseier"} className="førsteseier_header">
               Aalesund er neste motstander
             </Link>
@@ -60,7 +60,7 @@ const Nyheter = () => {
           />
           <p className="photo_text_poengdelingmotaafk">Foto: Fredrik Olastuen </p>
           <div className="nyheter_textbox">
-            <Link to={"/førsteseier"} className="førsteseier_header">
+            <Link to={"/førsteseier"} className="poengdeling_header">
               Poengdeling mot Aalesund
             </Link>
           </div>
