@@ -20,9 +20,9 @@ const Home = (props) => {
           <div className="container-textbox">
             <div className="container-header"> Hamkam & Liverpool Fanpage</div>
             <div className="container-tags">
-              <p>186 innlegg</p>
-              <p>51 følgere</p>
-              <p>60 følger</p>
+              <p>460 innlegg</p>
+              <p>689 følgere</p>
+              <p>635 følger</p>
             </div>
             <div className="container-text">
               <p className="header-container-text">
@@ -31,7 +31,7 @@ const Home = (props) => {
               <p className="theme-header">Sport</p>
               <p className="description">
                 Jeg følger HamKam og Liverpool FC sine klubblag, og har et stort
-                hjerte for klubbene, je vil dele nyheter, overganger, rykter, og
+                hjerte for klubbene, jeg vil dele nyheter, overganger, rykter, og
                 følge kamper!
               </p>
               <p className="following-text">
